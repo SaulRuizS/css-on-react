@@ -15,11 +15,13 @@ const movies = [
 ];
 
 export default function App() {
+  const [theme, setTheme] = React.useState("avengers");
+
   return (
-    <Theme>
+    <Theme theme={theme}>
       <Title>Movies</Title>
       {movies.map((movie) => (
-        <Form movie={movie} />
+        <Form movie={movie} updateTheme={() => setTheme(movie.name)} />
       ))}
     </Theme>
   );
