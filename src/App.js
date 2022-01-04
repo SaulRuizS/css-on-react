@@ -11,6 +11,10 @@ const movies = [
   {
     name: "Terminator",
     available: 3
+  },
+  {
+    name: "StarWars",
+    available: 7
   }
 ];
 

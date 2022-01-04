@@ -11,6 +11,11 @@ const themes = {
     bg: "#ccffcc",
     color: "#010",
     color2: "rgba(50, 100, 50, 0.5)"
+  },
+  starwars: {
+    bg: "#ffcccc",
+    color: "#100",
+    color2: "rgba(100, 50, 50, 0.5)"
   }
 };
 
