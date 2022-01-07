@@ -16,6 +16,11 @@ const themes = {
     bg: "#ffcccc",
     color: "#100",
     color2: "rgba(100, 50, 50, 0.5)"
+  },
+  dune: {
+    bg: "#ffffcc",
+    color: "#110",
+    color2: "rgba(100, 100, 50, 0.5)"
   }
 };
 
